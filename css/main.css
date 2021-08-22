@@ -58,6 +58,7 @@
   padding: 0 15px;
 }
 .about__img {
+  flex: 0 0 370px;
 }
 .team {
   background: var(--light-bg);
