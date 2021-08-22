@@ -33,6 +33,9 @@ button {
   cursor: pointer;
   color: inherit;
 }
+.section {
+  padding: 94px 0;
+}
 .container {
   margin: 0 auto;
   padding: 0 15px;
