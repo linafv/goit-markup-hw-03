@@ -25,14 +25,13 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio__list {
-  margin: 0 -15px;
+  margin: -15px -15px;
   display: flex;
   flex-flow: row wrap;
   flex: 0 0 33.333%;
 }
 .portfolio__card {
-  margin: 15px 0;
-  padding: 0 15px;
+  padding: 15px 15px;
 }
 .portfolio__link {
 }
