@@ -46,6 +46,19 @@
   line-height: 1.71;
   color: var(--sub-text-color);
 }
+.about {
+  padding-top: 0;
+}
+.about__list {
+  margin: 0 -15px;
+  display: flex;
+  flex-direction: row;
+}
+.about__item {
+  padding: 0 15px;
+}
+.about__img {
+}
 .team {
   background: var(--light-bg);
 }
