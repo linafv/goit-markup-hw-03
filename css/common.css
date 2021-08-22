@@ -109,12 +109,17 @@ button {
   color: var(--accent-color);
 }
 .footer {
+  padding: 60px 0;
   background: var(--dark-bg);
 }
 .footer__logo {
+  margin-bottom: 20px;
+  display: inline-block;
   color: var(--light-text-color);
 }
 .footer__addr {
+  display: flex;
+  flex-direction: column;
   font-style: normal;
   line-height: 1.7;
 }
@@ -122,10 +127,12 @@ button {
   color: var(--light-text-color);
 }
 .footer__link {
-  display: block;
   color: var(--footer-link-color);
 }
 .footer__link:hover,
 .footer__link:focus {
   color: var(--accent-color);
+}
+.footer__addr--mb {
+  margin-bottom: 9px;
 }
