@@ -1,10 +1,14 @@
 .hero {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   background: var(--dark-bg);
   color: #ffffff;
 }
 .hero__title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -17,7 +21,21 @@
   line-height: 1.87;
   background-color: var(--accent-color);
 }
+.advantage__title {
+  display: none;
+}
+.advantage__list {
+  margin: 0 -15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.advantage__item {
+  padding: 0 15px;
+  flex: 1 1 270px;
+}
 .advantage__header {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
