@@ -43,6 +43,7 @@
   padding: 20px 24px;
   background: #ffffff;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 .portfolio__name {
   margin-bottom: 4px;
